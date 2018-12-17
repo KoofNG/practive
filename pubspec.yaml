@@ -40,6 +40,12 @@ flutter:
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
+  assets:
+    - assets/food2.PNG
+    - assets/logo.jpg
+    - assets/bgImage.PNG
+    - assets/logo.PNG
+    - assets/koof.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
@@ -66,3 +72,20 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+
+  fonts:
+    - family: OpenSansItalics
+      fonts:
+        - asset: fonts/OpenSans-Italic.ttf
+
+    - family: OpenSansLight
+      fonts:       
+        - asset: fonts/OpenSans-Light.ttf
+
+    - family: OpenSansRegular
+      fonts:       
+        - asset: fonts/OpenSans-Regular.ttf
+
+    - family: OpenSansBold
+      fonts:       
+        - asset: fonts/OpenSans-Bold.ttf
